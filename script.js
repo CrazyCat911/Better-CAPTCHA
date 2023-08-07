@@ -2,7 +2,7 @@ const captcha = document.getElementById("captcha");
 const image = document.getElementById("image");
 const inputArea = document.getElementById("inputArea");
 const DOCreturn = document.getElementById("return");
-const truey = document.getElementById("true");
+const trueHTML = document.getElementById("true");
 
 
 /* dict structure:
@@ -17,5 +17,5 @@ const imageDict = {
 }
 
 function check() {
-    alert(truey.checked);
+    alert(trueHTML.checked);
 }
