@@ -11,9 +11,19 @@
     <form id="captcha">
         <img src="" id="image">
 
-        <div id="inputArea"></div>
+        <div id="inputArea">
+            <label>
+                <input type="radio" name="CAPTCHA" id="true" value="true">
+                True
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="CAPTCHA" id="false" value="false">
+                False
+            </label>
+        </div>
 
-        <button type="submit">Submit</button>
+        <button type="button" onclick="check()">Submit</button>
         <p id="return"></p>
     </form>
 

@@ -2,12 +2,20 @@ const captcha = document.getElementById("captcha");
 const image = document.getElementById("image");
 const inputArea = document.getElementById("inputArea");
 const DOCreturn = document.getElementById("return");
+const truey = document.getElementById("true");
+
+
+/* dict structure:
+{
+    "imagename":
+        `HTML input code`
+} */
 
 const imageDict = {
     "photo-1578885136359-16c8bd4d3a8e.png":
         ``
 }
 
-function captchaCheck() {
-    // Put something here
+function check() {
+    alert(truey.checked);
 }
