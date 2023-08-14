@@ -4,7 +4,8 @@ img#image {
 }
 
 form#captcha {
-    text-align: right;
-    display: inline-block;
-    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    margin: 0;
 }
