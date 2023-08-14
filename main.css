@@ -1,0 +1,10 @@
+img#image {
+    max-height: 500px;
+    display: inline-block;
+}
+
+form#captcha {
+    text-align: right;
+    display: inline-block;
+    text-align: left;
+}

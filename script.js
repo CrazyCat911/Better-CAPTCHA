@@ -12,7 +12,7 @@ const DOCreturn = document.getElementById("return");
 
 const imageDict = {
     "photo-1578885136359-16c8bd4d3a8e.png":
-        `<p>The fire contains the colour white</p> <br>
+        `<p>The fire contains the colour white</p>
         <label>
                 <input type="radio" name="CAPTCHA" id="true" value="true">
                 True
