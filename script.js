@@ -11,20 +11,20 @@ const DOCreturn = document.getElementById("return");
 } */
 
 const imageDict = {
-    "photo-1578885136359-16c8bd4d3a8e.png":
-        `<p>The fire contains the colour white</p>
-        <label>
-                <input type="radio" name="CAPTCHA" id="true" value="true">
-                True
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="CAPTCHA" id="false" value="false">
-                False
-            </label>`
+    "pexels-nastyasensei-3318215.jpg":
+        `<p>This image contains a human</p>
+<label>
+    <input type="radio" name="CAPTCHA" id="true" value="true">
+    True
+</label>
+<br>
+<label>
+    <input type="radio" name="CAPTCHA" id="false" value="false">
+    False
+</label>`
 }
-image.src = "./Images/" + "photo-1578885136359-16c8bd4d3a8e.png"
-inputArea.innerHTML = imageDict["photo-1578885136359-16c8bd4d3a8e.png"];
+image.src = "./Images/" + Object.keys(imageDict)[0]
+inputArea.innerHTML = imageDict[Object.keys(imageDict)[0]];
 
 const trueHTML = document.getElementById("true");
 
